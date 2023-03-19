@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.col {
+    width: 50%;
+}
+
+.right {
+    padding: 0 50px;
+}
+
+.comment-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    margin-top: 15px;
+}
+
+input {
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+}
+
+button {
+    margin-top: 10px;
+    height: 40px;
+    width: 250px;
+    align-self: flex-end;
+}
+
+#comment-date {
+    width: 250px;
+}
+
+.comment-items {
+    list-style-type: none;
+}
+
+.comment-item {
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+
+.name {
+    margin-right: 15px;
+}
+
+.date {
+    color: gray;
+    font-size: 14px;
+}
+
+.comment-main {
+    margin-top: 10px;
+}
+
+.delete {
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+}
+
+.like {
+    display: inline-block;
+    height: 100%;
+    cursor: pointer;
+}
+
+.red-border {
+    border-color: red;
+}
+
+[data-like='true'] {
+    background-color: red;
+}
